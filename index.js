@@ -4,8 +4,7 @@ $(function() {
     e.preventDefault();
     var formData = new FormData(e.target);
     $.ajax({
-      // url: 'http://httpbin.org/post',
-      url: 'http://localhost:3000/images',
+      url: 'http://httpbin.org/post',
       type: 'POST',
       contentType: false,
       processData: false,
